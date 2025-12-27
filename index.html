@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CO2 </title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #0a1a2f;
+            font-family: Arial, sans-serif;
+        }
+
+        .player {
+            width: 340px;
+            background-color: #ffffff;
+            margin: 70px auto;
+            border-radius: 18px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            overflow: hidden;
+        }
+
+        .cover img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .info {
+            text-align: center;
+            padding: 12px;
+        }
+
+        .info h3 {
+            margin: 6px 0;
+            color: #0a1a2f;
+        }
+
+        .info p {
+            margin: 0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        audio {
+            width: 90%;
+            margin: 10px auto;
+            display: block;
+        }
+
+        .playlist {
+            padding: 10px;
+        }
+
+        .song {
+            display: flex;
+            align-items: center;
+            padding: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .song:hover {
+            background-color: #f0f3f8;
+        }
+
+        .song img {
+            width: 45px;
+            height: 45px;
+            border-radius: 6px;
+            margin-right: 10px;
+        }
+
+        .song-title {
+            font-size: 14px;
+            color: #222;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #888;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="player">
+
+      
+        <div class="cover">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/87/cb/37/87cb376e-12c3-b9f0-3344-3e4d664ff7d0/075679664006.jpg/600x600bf-60.jpg">
+        </div>
+
+     
+        <div class="info">
+            <h3>CO<sub>2</sub> Song</h3>
+            <p>Official Audio (Demo)</p>
+        </div>
+
+       
+        <audio controls>
+            
+            <source src="https://www.wapking.us/dl/64/Co2?s=f8db62d0b024fd954dae7&e=1766834439" type="audio/mpeg">
+
+
+            Your browser does not support audio.
+        </audio>
+
+     
+        <div class="playlist">
+
+            <div class="song">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+                <div class="song-title">Vilambara Idaiveli</div>
+            </div>
+
+            <div class="song">
+                <img src="https://i.ytimg.com/vi/vHSeOnwkbZc/oardefault.jpg?sqp=-oaymwEYCJUDENAFSFqQAgHyq4qpAwcIARUAAIhC&rs=AOn4CLC-Sr6BNVPcfeeDpWzAygGnTXEQiQ">
+                <div class="song-title">Vizhi Veekura</div>
+            </div>
+
+            <div class="song">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoG9RWAEJ9PnEdfG1Qmr8ij71LyyEJY07T-w&s">
+                <div class="song-title">Oorum Blood</div>
+            </div>
+
+    
+
+    </div>
+
+</body>
+</html>
